@@ -29,12 +29,11 @@ Utility commands for Claude Code itself.
 
 ## Installation
 
-Install each plugin from your local filesystem:
+In Claude Code:
 
 ```bash
-# In Claude Code
-/install-plugin file:///path/to/claude-plugins/dev
-/install-plugin file:///path/to/claude-plugins/claude
+/install-plugin github:christophercampbell/claude-plugins/dev
+/install-plugin github:christophercampbell/claude-plugins/claude
 ```
 
 Or add to `~/.claude/settings.json`:
@@ -42,8 +41,8 @@ Or add to `~/.claude/settings.json`:
 ```json
 {
   "enabledPlugins": [
-    "file:///Users/you/code/claude-plugins/dev",
-    "file:///Users/you/code/claude-plugins/claude"
+    "github:christophercampbell/claude-plugins/dev",
+    "github:christophercampbell/claude-plugins/claude"
   ]
 }
 ```
