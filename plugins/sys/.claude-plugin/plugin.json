@@ -8,5 +8,5 @@
   },
   "repository": "https://github.com/christophercampbell/prompt-plugins",
   "license": "MIT",
-  "keywords": ["utility", "skills", "optimize", "cleanup"]
+  "keywords": ["utility", "skills", "prune", "cleanup"]
 }
