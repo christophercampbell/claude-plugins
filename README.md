@@ -4,26 +4,26 @@ A collection of plugins for Claude Code.
 
 ## Plugins
 
-### dev
+### coder
 
 Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more.
 
-**Skill:** `dev:development-principles`
+**Skill:** `coder:development-principles`
 - Invoke when designing, implementing, or reviewing code
 - Covers: YAGNI, Composability, SOLID, DRY, KISS, Separation of Concerns, Fail Fast, Error Handling, Testing, Performance, Security, Code Review, Refactoring, Problem-Solving, Communication Style, PR Authoring
 
-**Command:** `/dev:review`
+**Command:** `/coder:review`
 - Reviews recent code changes against the principles
 - Reports findings with file paths and line numbers
 
-### claude
+### agent
 
 Utility commands for Claude Code itself.
 
-**Command:** `/claude:skills`
+**Command:** `/agent:skills`
 - Lists all available skills in a table format
 
-**Command:** `/claude:optimize`
+**Command:** `/agent:prune`
 - Audits and cleans up plugin installation
 - Identifies orphaned caches, old versions, manifest drift
 
@@ -36,11 +36,11 @@ Add the marketplace, then install plugins:
 ```
 
 ```shell
-/plugin install dev@prompt-plugins
+/plugin install coder@prompt-plugins
 ```
 
 ```shell
-/plugin install sys@prompt-plugins
+/plugin install agent@prompt-plugins
 ```
 
 Or use `/plugin` to browse and install interactively.

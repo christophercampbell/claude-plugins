@@ -1,4 +1,4 @@
-# sys
+# agent
 
 Utility commands for Claude Code.
 
@@ -9,14 +9,14 @@ Utility commands for Claude Code.
 ```
 
 ```shell
-/plugin install sys@prompt-plugins
+/plugin install agent@prompt-plugins
 ```
 
 ## Commands
 
-**`/sys:skills`** - Lists all available skills in a table format.
+**`/agent:skills`** - Lists all available skills in a table format.
 
-**`/sys:prune`** - Audits and cleans up plugin installation.
+**`/agent:prune`** - Audits and cleans up plugin installation.
 
 Checks:
 - Orphaned cache (in cache but not enabled)

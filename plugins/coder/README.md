@@ -1,4 +1,4 @@
-# dev
+# coder
 
 Pragmatic engineering principles for Claude Code.
 
@@ -9,12 +9,12 @@ Pragmatic engineering principles for Claude Code.
 ```
 
 ```shell
-/plugin install dev@prompt-plugins
+/plugin install coder@prompt-plugins
 ```
 
 ## Skill
 
-**`dev:development-principles`** - Invoke when designing, implementing, or reviewing code.
+**`coder:development-principles`** - Invoke when designing, implementing, or reviewing code.
 
 Covers:
 - YAGNI, Composability, SOLID, DRY, KISS
@@ -25,7 +25,7 @@ Covers:
 
 ## Command
 
-**`/dev:review`** - Reviews recent code changes against the principles.
+**`/coder:review`** - Reviews recent code changes against the principles.
 
 Evaluates:
 1. YAGNI - Speculative code or unnecessary abstraction?

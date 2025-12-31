@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "dev",
-      "source": "./plugins/dev",
+      "name": "coder",
+      "source": "./plugins/coder",
       "description": "Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more",
       "version": "1.0.0",
       "license": "MIT",
@@ -19,12 +19,12 @@
       "category": "development"
     },
     {
-      "name": "sys",
-      "source": "./plugins/sys",
+      "name": "agent",
+      "source": "./plugins/agent",
       "description": "Utility commands for Claude Code itself",
       "version": "1.0.0",
       "license": "MIT",
-      "keywords": ["utility", "skills", "optimize"],
+      "keywords": ["utility", "skills", "prune"],
       "category": "utilities"
     }
   ]

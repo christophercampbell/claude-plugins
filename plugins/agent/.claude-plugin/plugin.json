@@ -1,12 +1,12 @@
 {
-  "name": "dev",
+  "name": "agent",
   "version": "1.0.0",
-  "description": "Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more",
+  "description": "Utility commands for Claude Code itself",
   "author": {
     "name": "Christopher Campbell",
     "url": "https://github.com/christophercampbell"
   },
   "repository": "https://github.com/christophercampbell/prompt-plugins",
   "license": "MIT",
-  "keywords": ["engineering", "principles", "yagni", "solid", "kiss", "dry"]
+  "keywords": ["utility", "skills", "prune", "cleanup"]
 }
