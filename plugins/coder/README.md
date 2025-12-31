@@ -5,11 +5,11 @@ Pragmatic engineering principles for Claude Code.
 ## Installation
 
 ```shell
-/plugin marketplace add christophercampbell/prompt-plugins
+/plugin marketplace add christophercampbell/mon-ami
 ```
 
 ```shell
-/plugin install coder@prompt-plugins
+/plugin install coder@mon-ami
 ```
 
 ## Skill

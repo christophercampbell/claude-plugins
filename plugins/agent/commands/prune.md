@@ -25,7 +25,7 @@ When listing plugins, use this table format:
 | Registry | Plugin | Version | Status |
 |----------|--------|---------|--------|
 
-- Registry: project name (e.g., superpowers-marketplace, prompt-plugins); empty if local
+- Registry: project name (e.g., superpowers-marketplace, mon-ami); empty if local
 - Plugin: plugin name
 - Version: installed version
 - Status: enabled, orphaned, stale, empty, etc.

@@ -1,6 +1,8 @@
-# Prompt Plugins
+# Mon-Ami
 
-A collection of plugins for Claude Code.
+mon-ami is my personal toolkit for working with Claude Code — a growing set of plugins, commands, and skills I use to augment coding, reasoning, and agent workflows.
+
+Everything here is shaped by day-to-day use, focusing on clarity, reuse, and composability. It extends Claude Code with practical skills and commands, tuned for how I actually work.
 
 ## Plugins
 
@@ -36,15 +38,15 @@ Utility commands and skills for Claude Code itself.
 Add the marketplace, then install plugins:
 
 ```shell
-/plugin marketplace add christophercampbell/prompt-plugins
+/plugin marketplace add christophercampbell/mon-ami
 ```
 
 ```shell
-/plugin install coder@prompt-plugins
+/plugin install coder@mon-ami
 ```
 
 ```shell
-/plugin install agent@prompt-plugins
+/plugin install agent@mon-ami
 ```
 
 Or use `/plugin` to browse and install interactively.
