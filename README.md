@@ -6,30 +6,30 @@ Everything here is shaped by day-to-day use, focusing on clarity, reuse, and com
 
 ## Plugins
 
-### coder
+### mon
 
-Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more.
+**My** pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more.
 
-**Skill:** `coder:development-principles`
+**Skill:** `mon:development-principles`
 - Invoke when designing, implementing, or reviewing code
 - Covers: YAGNI, Composability, SOLID, DRY, KISS, Separation of Concerns, Fail Fast, Error Handling, Testing, Performance, Security, Code Review, Refactoring, Problem-Solving, Communication Style, PR Authoring
 
-**Command:** `/coder:review`
+**Command:** `/mon:review`
 - Reviews recent code changes against the principles
 - Reports findings with file paths and line numbers
 
-### agent
+### ami
 
-Utility commands and skills for Claude Code itself.
+Utility commands and skills for Claude Code itself, **my friend**.
 
-**Skill:** `agent:confidence-check`
+**Skill:** `ami:confidence-check`
 - Pre-implementation confidence assessment (≥90% required)
 - Verifies: no duplicates, architecture compliance, official docs, OSS references, root cause
 
-**Command:** `/agent:skills`
+**Command:** `/ami:skills`
 - Lists all available skills in a table format
 
-**Command:** `/agent:prune`
+**Command:** `/ami:prune`
 - Audits and cleans up plugin installation
 - Identifies orphaned caches, old versions, manifest drift
 
@@ -42,11 +42,11 @@ Add the marketplace, then install plugins:
 ```
 
 ```shell
-/plugin install coder@mon-ami
+/plugin install mon@mon-ami
 ```
 
 ```shell
-/plugin install agent@mon-ami
+/plugin install ami@mon-ami
 ```
 
 Or use `/plugin` to browse and install interactively.

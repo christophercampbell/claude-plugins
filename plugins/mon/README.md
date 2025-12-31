@@ -1,4 +1,4 @@
-# coder
+# mon
 
 Pragmatic engineering principles for Claude Code.
 
@@ -9,12 +9,12 @@ Pragmatic engineering principles for Claude Code.
 ```
 
 ```shell
-/plugin install coder@mon-ami
+/plugin install mon@mon-ami
 ```
 
 ## Skill
 
-**`coder:development-principles`** - Invoke when designing, implementing, or reviewing code.
+**`mon:development-principles`** - Invoke when designing, implementing, or reviewing code.
 
 Covers:
 - YAGNI, Composability, SOLID, DRY, KISS
@@ -25,7 +25,7 @@ Covers:
 
 ## Command
 
-**`/coder:review`** - Reviews recent code changes against the principles.
+**`/mon:review`** - Reviews recent code changes against the principles.
 
 Evaluates:
 1. YAGNI - Speculative code or unnecessary abstraction?

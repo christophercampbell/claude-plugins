@@ -1,4 +1,4 @@
-# agent
+# ami
 
 Utility commands and skills for Claude Code.
 
@@ -9,12 +9,12 @@ Utility commands and skills for Claude Code.
 ```
 
 ```shell
-/plugin install agent@mon-ami
+/plugin install ami@mon-ami
 ```
 
 ## Skills
 
-**`agent:confidence-check`** - Pre-implementation confidence assessment (≥90% required).
+**`ami:confidence-check`** - Pre-implementation confidence assessment (≥90% required).
 
 Use before starting any implementation to verify:
 - No duplicate implementations exist
@@ -25,9 +25,9 @@ Use before starting any implementation to verify:
 
 ## Commands
 
-**`/agent:skills`** - Lists all available skills in a table format.
+**`/ami:skills`** - Lists all available skills in a table format.
 
-**`/agent:prune`** - Audits and cleans up plugin installation.
+**`/ami:prune`** - Audits and cleans up plugin installation.
 
 Checks:
 - Orphaned cache (in cache but not enabled)
